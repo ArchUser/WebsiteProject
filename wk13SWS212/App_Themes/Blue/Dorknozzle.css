@@ -1,0 +1,78 @@
+﻿body 
+{
+  font-family: Tahoma, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+}
+h1
+{
+  font-size: 25px;
+}
+a:link, a:visited
+{  
+  text-decoration: none;
+  color: Blue;
+}
+a:hover
+{
+  color: Red;
+}
+.Header 
+{
+  top: 0px;
+  left: 0px;
+  position: relative;
+  width: 800px;
+}
+.Menu 
+{
+  top: 30px;
+  left: 15px;
+  width: 195px;
+  position: relative;
+}
+.Content
+{
+  top: -140px;
+  left: 200px;
+  position: relative;
+  width: 600px
+}
+.GridMain
+{
+  border-right: gainsboro thin solid;
+  border-top: gainsboro thin solid;
+  border-left: gainsboro thin solid;
+  border-bottom: gainsboro thin solid;
+  background-color: #333333;
+  width: 400px;
+}
+.GridRow
+{
+  background-color: #FFFAFA;
+}
+.GridSelectedRow
+{
+  background-color: #E6E6FA;
+}      
+.GridHeader
+{
+  background-color: #ADD8E6;
+  font-weight: bold;
+  text-align: left;
+}
+
+#wrap { 
+	width: 900px; 
+	margin: 0 auto;
+	text-align: left; 
+}
+
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+	
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
