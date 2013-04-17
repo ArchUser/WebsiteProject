@@ -18,6 +18,8 @@
     <siteMapNode url="~/AdminNewsletter.aspx"
         title="Admin Newsletter"
         description="Dorknozzle Admin Newsletter" />
+    <siteMapNode url="~/EditStore.aspx" title="Edit Store Items"
+                 description="Add/Remove Store Items" />
     <siteMapNode url="~/Onlinestore.aspx" title="Online Store"
         description="Online Store" />
   </siteMapNode>

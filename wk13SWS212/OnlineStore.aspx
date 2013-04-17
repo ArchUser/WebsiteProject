@@ -21,8 +21,7 @@
 		<td>
 		    <h5><%# Eval("ItemName") %></h5>
 			<div><%# Eval("Description") %></div><br />
-			Cost: $<%# Eval("Cost") %><br /><br />
-			<asp:Button id="btnAddToCart" runat="server" Text="Add To Cart" CommandName="Edit" />
+			Cost: $<%# Eval("Cost") %><br /><br /><asp:Button id="btnAddToCart" runat="server" Text="Add To Cart" CommandName="Edit" />
 		</td>
 		</tr>
 		<tr>
